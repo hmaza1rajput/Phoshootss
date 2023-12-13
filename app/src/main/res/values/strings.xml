@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Phoshoots</string>
+    <string name="title_activity_login_page">LoginPage</string>
+    <string name="title_activity_sign_up_page">SignUpPage</string>
+    <string name="title_activity_mode_selection_page">ModeSelectionPage</string>
+    <string name="title_activity_pgrapher_page">PGrapherPage</string>
+    <string name="title_activity_search_photographers">SearchPhotographers</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_packages">PackagesActivity</string>
+    <string name="title_activity_packages_user">PackagesActivityUser</string>
+    <string name="title_activity_edit_package_page">EditPackagePage</string>
+</resources>

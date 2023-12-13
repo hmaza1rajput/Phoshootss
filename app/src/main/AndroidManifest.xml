@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.PhoShoots.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Phoshoots"
+        tools:targetApi="31">
+        <activity
+            android:name=".EditPackagePage"
+            android:exported="false"
+            android:label="@string/title_activity_edit_package_page"
+            android:theme="@style/Theme.Phoshoots" />
+        <activity
+            android:name=".PackagesActivityUser"
+            android:exported="false"
+            android:label="@string/title_activity_packages_user"
+            android:theme="@style/Theme.Phoshoots" />
+        <activity
+            android:name=".PackagesActivity"
+            android:exported="false"
+            android:label="@string/title_activity_packages"
+            android:theme="@style/Theme.Phoshoots" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false"
+            android:label="@string/title_activity_detail"
+            android:theme="@style/Theme.Phoshoots" />
+        <activity
+            android:name=".SearchPhotographers"
+            android:exported="false"
+            android:label="@string/title_activity_search_photographers"
+            android:theme="@style/Theme.Phoshoots" />
+        <activity
+            android:name=".PGrapherPage"
+            android:exported="false"
+            android:label="@string/title_activity_pgrapher_page"
+            android:theme="@style/Theme.Phoshoots" />
+        <activity
+            android:name=".LoginPage"
+            android:exported="false"
+            android:label="@string/title_activity_mode_selection_page"
+            android:theme="@style/Theme.Phoshoots" />
+        <activity
+            android:name=".SignUpPage"
+            android:exported="false"
+            android:label="@string/title_activity_sign_up_page"
+            android:theme="@style/Theme.Phoshoots" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login_page"
+            android:theme="@style/Theme.Phoshoots" />
+        <activity
+            android:name=".ModeSelectionPage"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Phoshoots">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

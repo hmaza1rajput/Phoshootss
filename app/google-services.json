@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "250329123878",
+    "project_id": "phoshoots-43b96",
+    "storage_bucket": "phoshoots-43b96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250329123878:android:c873aefaef0822f97d2ae7",
+        "android_client_info": {
+          "package_name": "com.PhoShoots.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA78wqi0DmkAEN14Ki5aPJ9I7aDUN3lD2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
