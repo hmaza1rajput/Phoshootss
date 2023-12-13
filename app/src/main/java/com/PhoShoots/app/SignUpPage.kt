@@ -108,6 +108,7 @@ class SignUpPage : ComponentActivity() {
                     latitude = location.latitude.toString()
                     longitude = location.longitude.toString()
                     fusedLocationClient.removeLocationUpdates(locationCallback)
+s
 
 
                 }
