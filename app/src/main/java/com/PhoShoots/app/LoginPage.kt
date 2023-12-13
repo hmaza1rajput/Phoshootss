@@ -195,7 +195,8 @@ fun sign_in_using_auth_firebase(email: String, password: String, context: Contex
             if (task.isSuccessful) {
 
 
-                fetch_info() { uid,name, phone, email, latitude, longitude ->
+                fetch_info(l)
+                { uid,name, phone, email, latitude, longitude ->
 
                     save_in_presistences_storage(context,uid, name, phone, email, latitude, longitude)
 

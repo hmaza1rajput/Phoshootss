@@ -103,7 +103,8 @@ class SignUpPage : ComponentActivity() {
 
             override fun onLocationResult(locationResult: LocationResult) {
 
-                for (location in locationResult.locations) {
+                for (location in locationResult.locations)
+                {
 
                     latitude = location.latitude.toString()
                     longitude = location.longitude.toString()
